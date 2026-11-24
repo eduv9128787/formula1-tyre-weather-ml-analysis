@@ -114,7 +114,49 @@ LAPD is an academic research prototype and is not intended for production-level 
 
 This repository is being prepared to support research transparency and reproducibility through the inclusion of research notebooks, data preparation procedures, model evaluation outputs and the LAPD prototype.
 
-Project structure, dependency requirements and execution instructions will be updated as the repository is populated.
+### Project Setup and Execution
+
+1. Download the repository using the GitHub Code menu and select Download ZIP.
+2. Extract the repository into a local directory.
+3. Install the required Python dependencies using the following command:
+
+   `python -m pip install -r requirements.txt`
+
+4. Subject to data-sharing permissions, extract the contents of `f1_research_datasets.zip` into the main project directory, preserving the original CSV filenames.
+5. Open the research notebooks using Jupyter Notebook or JupyterLab.
+
+### Research Notebook Execution Order
+
+The research notebooks should be executed in the following order:
+
+1. `01_F1_Data_Exploration.ipynb`
+2. `02 F1 Machine Learning.ipynb`
+3. `03_F1_Final_Analysis.ipynb`
+
+### Running the LAPD Prototype
+
+Copy the extracted `f1_2023_2025_model_ready.csv` dataset into the LAPD directory, alongside `app.py` and `lapd_prediction_model.joblib`.
+
+Open a terminal in the main project directory and execute:
+
+```bash
+cd LAPD
+python -m streamlit run app.py
+```
+
+The dashboard should open in a web browser.
+
+### Data Attribution and Access
+
+The research datasets were obtained from the OpenF1 API (https://openf1.org/) and processed for non-commercial academic research.
+
+The repository is currently private. Redistribution of the underlying datasets remains subject to applicable data-sharing permissions.
+
+### Reproducibility
+
+The repository contains research notebooks, analytical results, dependency requirements, the trained prediction model and the LAPD prototype to support research transparency and reproducibility.
+
+The dependency versions reflect the research environment. Full execution in an independent environment has not yet been verified.
 
 ## Academic Purpose
 
