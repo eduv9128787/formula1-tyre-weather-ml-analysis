@@ -1,0 +1,5 @@
+Test,Wald statistic,P-value,Significant at 5%
+Tyre compounds,12.04082701037142,0.017050233420231813,True
+Weather conditions,11.104022940450026,0.08521419311796387,False
+Tyre characteristics,60.2950601718718,1.0562321735751561e-11,True
+Overall tyre and weather predictors,93.70698308295404,3.1195098780982675e-15,True

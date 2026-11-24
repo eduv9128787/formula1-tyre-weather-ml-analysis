@@ -1,0 +1,4 @@
+Hypothesis test,All laps p-value,Excluding opening laps p-value,All laps significant,Later laps significant
+Tyre characteristics,1.0562321735751561e-11,5.99210900708486e-15,True,True
+Weather conditions,0.08521419311796387,0.01816874964235982,False,True
+Overall research hypothesis,3.1195098780982675e-15,1.0575263898124605e-13,True,True
